@@ -1,0 +1,10 @@
+metrics:
+  enabled: true
+  namespace: "plantation"
+  counters:
+    approvals_total: 0
+    retractions_total: 0
+    batch_runs_total: 0
+  gauges:
+    scenes_in_earth: 0
+    hypotheses_in_universe: 0

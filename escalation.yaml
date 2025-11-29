@@ -1,0 +1,2 @@
+# Policies for escalating issues, such as repeated validation failures.
+max_retries: 3

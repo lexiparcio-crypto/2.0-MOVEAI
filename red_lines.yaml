@@ -1,0 +1,4 @@
+# Red-line policies that must not be crossed.
+# Example:
+# - category: "dual_use"
+#   action: "block"

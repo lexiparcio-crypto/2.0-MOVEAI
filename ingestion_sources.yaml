@@ -1,0 +1,19 @@
+# filepath: config/ingestion_sources.yml
+sources:
+  - name: "no_film_school"
+    url: "https://nofilmschool.com/"
+    type: "web_article"
+    parser_config:
+      article_selector: "article.story"
+      title_selector: "h2.story__title"
+      link_selector: "a.story__link"
+      content_selector: "div.story__body" # This is a placeholder for now
+
+  - name: "frame_io_blog"
+    url: "https://blog.frame.io/"
+    type: "web_article"
+    parser_config:
+      article_selector: "article.post-card"
+      title_selector: "h2.post-card-title"
+      link_selector: "a.post-card-image-link"
+      content_selector: "div.post-content" # This is a placeholder for now

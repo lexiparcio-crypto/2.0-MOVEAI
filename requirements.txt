@@ -1,0 +1,18 @@
+fastapi
+uvicorn
+pydantic
+rich
+pyyaml
+
+# AI Film Generator dependencies
+requests
+beautifulsoup4
+celery
+redis
+sentence-transformers
+pinecone-client
+python-dotenv
+openai
+elevenlabs
+moviepy
+google-generativeai

@@ -1,0 +1,54 @@
+{
+  "characters": [
+    {
+      "id": "char_001",
+      "name": "Ava",
+      "description": "A brilliant but reclusive scientist who uncovers the first 'Earth' truth.",
+      "seed": 12345,
+      "voice_profile": {
+        "provider": "elevenlabs",
+        "voice_id": "voice_id_for_ava",
+        "stability": 0.7,
+        "similarity_boost": 0.8
+      },
+      "appearance": {
+        "provider": "d-id",
+        "image_url": "https://example.com/ava_base_image.png",
+        "age": 35,
+        "ethnicity": "mixed (East Asian / European)",
+        "hair": "short, black, often messy",
+        "eyes": "dark brown",
+        "distinguishing_features": "a small scar on her left eyebrow"
+      },
+      "outfits": {
+        "default": "lab_coat_over_dark_jeans",
+        "casual": "grey_hoodie_and_cargo_pants"
+      }
+    },
+    {
+      "id": "char_002",
+      "name": "Jaxon",
+      "description": "A pragmatic military commander tasked with overseeing the 'Approver GOD' project.",
+      "seed": 67890,
+      "voice_profile": {
+        "provider": "elevenlabs",
+        "voice_id": "voice_id_for_jaxon",
+        "stability": 0.6,
+        "similarity_boost": 0.9
+      },
+      "appearance": {
+        "provider": "d-id",
+        "image_url": "https://example.com/jaxon_base_image.png",
+        "age": 45,
+        "ethnicity": "African American",
+        "hair": "shaved, clean",
+        "eyes": "light brown",
+        "distinguishing_features": "a sharp, defined jawline and a commanding presence"
+      },
+      "outfits": {
+        "uniform": "dark_blue_military_uniform_with_silver_trim",
+        "off_duty": "black_turtleneck_and_trousers"
+      }
+    }
+  ]
+}

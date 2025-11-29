@@ -1,0 +1,27 @@
+{
+  "project_prompt": "A gritty, cyberpunk detective story set in a rain-soaked metropolis.",
+  "overall_aesthetic": "Gritty Cyberpunk",
+  "color_palette": {
+    "primary": [
+      "#0d0d0d",
+      "#1a1a1a"
+    ],
+    "secondary": [
+      "#4a4a4a",
+      "#6b6b6b"
+    ],
+    "accent": [
+      "#ff00ff",
+      "#00ffff",
+      "#ffff00"
+    ]
+  },
+  "material_textures": [
+    "wet asphalt",
+    "exposed wires",
+    "chrome",
+    "holographic ads"
+  ],
+  "architectural_style": "Brutalist, layered with high-tech and decay",
+  "lighting_style": "High-contrast, neon-drenched, volumetric fog"
+}

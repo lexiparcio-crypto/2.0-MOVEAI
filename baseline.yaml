@@ -1,0 +1,21 @@
+# experiments/config/baseline.yaml
+# Configuration for a baseline experiment
+
+# Data configuration
+data:
+  source_url: "https://example.com/my-data.json"
+  validation_schema: "ItemSchemaV1"
+
+# Model configuration
+model:
+  name: "baseline_transformer"
+  parameters:
+    learning_rate: 0.001
+    epochs: 10
+    batch_size: 32
+
+# Evaluation configuration
+evaluation:
+  metrics:
+    - "factual_precision"
+    - "citation_match"
